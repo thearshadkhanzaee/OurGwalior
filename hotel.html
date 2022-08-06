@@ -1,0 +1,646 @@
+<!-- Our Gwalior/Hotel Page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Hotel to Stay - Gwalior</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome 5 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="icon" href="images/gwaliorfavicon.png">
+</head>
+
+<body class="product">
+    <!-- Navbar Section -->
+    <header id="full_nav">
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fas fa-stream navbar-toggler-icon"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Gwalior-City</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " href="restaurant.html">Restaurant</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="hotel.html">Hotels</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="header_right">
+                            <div class="text-lg-end">
+                                <span class="text-center">Follow Us! <br class="d-lg-block d-none">on Instagram</span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar Section end -->
+
+    <!-- banner Section start -->
+    <section id="home" class="banner_wrapper p-0">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(./image/hotel/hotelsbg1.jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1 style="color: white; background-color: #8a7a9945; ">Welcome to Hotels In Gwalior</h1>
+                            <p>Gwalior - Book affordable hotels in Gwalior at discounted prices with MakeMyTrip.com.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image: url(./image/hotel/hotelbg.jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1 style="color: white; background-color: #8a7a9945; ">Welcome to Hotels In Gwalior</h1>
+                            <p>The average price per night for a 3-star hotel in Gwalior this weekend is ₹ 2,315 or, for
+                                a 4-star hotel, ₹ 4,191. Looking for something even fancier? 5-star hotels in Gwalior
+                                for this weekend cost on average around ₹ 6,988 per night.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="container booking-area">
+            <form class="row">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!--Hotel Section start -->
+    <section class="product_section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center pb-5">
+                    <h2 class="section-title">Accommodations</h2>
+                    <!-- <p class="section-subtitle">Gwalior - Book affordable hotels in Gwalior at discounted prices with
+                        MakeMyTrip.com. Check out your Preferred stay from popular area in Gwalior, Stay in Gwalior's
+                        best hotels! </p> -->
+                </div>
+            </div>
+            <div class="row align-items-center py-5">
+                <div class="col-xl-5 col-lg-6 col-12 mb-5">
+                    <div class="card border-0 me-lg-5">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/hotel/raddision1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/hotel/raddision2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-6 col-12 mb-5">
+                    <div class="product-content">
+                        <h2>Radisson Gwalior, Gwalior</h2>
+                        <div class="product-details">
+                            <p>Rating: 7.6 <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>
+                            </p>
+                            <p> Price from
+                                <i class="fas fa-rupee-sign"></i> 5,599
+                                per night
+                            </p>
+                            <p>Situated in Gwalior, 5 km from Jai Vilas Palace, Radisson Gwalior features accommodation
+                                with a restaurant, free private parking, an outdoor swimming pool and a shared lounge.
+                                Among the facilities at this property are a concierge service and a tour desk, along
+                                with free WiFi throughout the property. The accommodation offers a 24-hour front desk,
+                                room service and currency exchange for guests.</p>
+                            <p>The rooms at the hotel come with air conditioning, a seating area, a flat-screen TV with
+                                satellite channels, a safety deposit box and a private bathroom with a shower, slippers
+                                and a hairdryer. Radisson Gwalior provides some rooms with city views, and all rooms are
+                                fitted with a kettle. At the accommodation rooms have bed linen and towels.
+                                <br class="d-lg-block d-none">
+                                A continental breakfast is available each morning at Radisson Gwalior.
+
+                                The hotel offers a sun terrace.
+                                <br class="d-lg-block d-none">
+                                Sasbahu Temple is 5 km from Radisson Gwalior, while Gwalior Fort is 6 km from the
+                                property. The nearest airport is Gwalior Airport, 13 km from the accommodation.
+                            </p>
+
+                            <h4>Address</h4>
+                            <p> <i class="fas fa-map-marker-alt"></i> Plot No. 13-14, Behind SADA Office, City Centre,
+                                Gwalior, Madhya Pradesh, 474011, India, 474011
+                            </p>
+                            <h4>Most popular facilities</h4>
+                            <p>
+                                <i class="fas fa-swimming-pool"></i> swimming pool <i class="fas fa-parking"></i> Free
+                                parking <i class="fas fa-wifi"></i> Free WiFi <i class="fas fa-coffee"></i> Tea/coffee
+                                maker in all rooms.
+                            </p>
+
+                            <a href="#" class="btn main-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center py-5">
+                <div class="col-xl-7 col-lg-6 col-12 mb-5  order-2 order-lg-1">
+                    <div class="product-content">
+                        <h2>Neemrana's - Deo Bagh</h2>
+                        <p>Rating: 8.8 <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <p> Price from
+                            <i class="fas fa-rupee-sign"></i> 5,850
+                            per night
+                        </p>
+                        <div class="product-details">
+                            <p>Neemrana's - Deo Bagh is located in Gwalior, just 2.6 km from the Tomb of Tansen. Free
+                                Wi-Fi access is available in public areas.
+                                <br class="d-lg-block d-none">
+                                The property is located 5 km from Gwalior Railway Station and 6 km from Gwalior Bus
+                                Stand. Gwalior Airport is 25 km away. Teli Ka Mandir is 7 km away.
+                                <br class="d-lg-block d-none">
+                                Rooms here will provide you with air conditioning, a balcony and a seating area. There
+                                is also an electric kettle. Featuring a shower, private bathrooms also come with free
+                                toiletries. Extras include a desk.
+                                <br class="d-lg-block d-none">
+                                At Neemrana's - Deo Bagh you will find a 24-hour front desk and a garden. Other
+                                facilities offered include luggage storage, car rental, currency exchange and a laundry.
+                                <br class="d-lg-block d-none">
+                                The dining hall serves various cuisines but has fixed timings.
+                            </p>
+
+
+                            <h4>Address</h4>
+                            <p> <i class="fas fa-map-marker-alt"></i> Jadhav Kothi, Opposite Janaktal, Agra-Mumbai
+                                Highway, Bahodapur, Gwalior, 474012 Gwalior, India
+                            </p>
+                            <h4>Most popular facilities
+                            </h4>
+                            <p><i class="fas fa-parking"></i> Free parking <i class="fas fa-wifi"></i> Free WiFi</p>
+
+                            <a href="#" class="btn main-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 col-12 mb-5 order-1 order-lg-2">
+                    <div class="card border-0 ms-lg-5">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/hotel/deo1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/hotel/deo2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center py-5">
+                <div class="col-xl-5 col-lg-6 col-12 mb-5">
+                    <div class="card border-0 me-lg-5">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/hotel/golden1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/hotel/golden2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-6 col-12 mb-5">
+                    <div class="product-content">
+                        <h2>Capital O 8194 The Golden Ville</h2>
+                        <div class="product-details">
+                            <p>Rating: 6.6 <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                            <p>Price from
+                                <i class="fas fa-rupee-sign"></i> 1,040
+                                per night
+                            </p>
+                            <p>Situated within 1.3 km of Jai Vilas Palace and 3.4 km of Teli Ka Mandir, Capital O 8194
+                                The Golden Ville features rooms with air conditioning and a private bathroom in Gwalior.
+                                Boasting a 24-hour front desk, this property also provides guests with a restaurant. The
+                                hotel has family rooms.
+                                <br class="d-lg-block d-none">
+                                At the hotel, rooms include a wardrobe.
+                                <br class="d-lg-block d-none">
+                                Guests at Capital O 8194 The Golden Ville can enjoy a à la carte breakfast.
+                                <br class="d-lg-block d-none">
+                                Sasbahu Temple is 3.6 km from the accommodation, while Gwalior Fort is 5 km from the
+                                property. The nearest airport is Gwalior Airport, 14 km from Capital O 8194 The Golden
+                                Ville.
+
+                            </p>
+
+                            <h4>Address</h4>
+                            <p> <i class="fas fa-map-marker-alt"></i> Near Sanatan Dharm Mandir, Hospital road, Lashkar,
+                                474011 Gwalior, India
+                            </p>
+                            <h4>4 reasons to choose Capital O 8194 The Golden Ville
+
+
+                            </h4>
+                            <p> <i class="fas fa-tag"></i> Low Prices!
+                                <i class="fas fa-lock"></i> Booking is safe
+                                <i class="fas fa-tasks"></i> Manage your bookings online
+                                <i class="far fa-comment"></i>The staff speak English
+                            </p>
+                            <a href="#" class="btn main-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center py-5">
+                <div class="col-xl-7 col-lg-6 col-12 mb-5  order-2 order-lg-1">
+                    <div class="product-content">
+                        <h2>Clarks Inn Suites Gwalior </h2>
+                        <p> Price from
+                            <i class="fas fa-rupee-sign"></i> 4,320
+                            per night
+                        </p>
+                        <p>Rating: 8.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <div class="product-details">
+                            <p>Situated in Gwalior, less than 1 km from Jai Vilas Palace, Clarks Inn Suites Gwalior
+                                features accommodation with a restaurant, free private parking, an outdoor swimming pool
+                                and a fitness centre. 1.7 km from Sasbahu Temple and 2.5 km from Teli Ka Mandir, the
+                                property offers a bar and a terrace. The accommodation provides a 24-hour front desk,
+                                airport transfers, room service and free WiFi throughout the property.
+                                <br class="d-lg-block d-none">
+                                Guest rooms in the hotel are equipped with a kettle. Complete with a private bathroom
+                                fitted with slippers, all rooms at Clarks Inn Suites Gwalior have a flat-screen TV and
+                                air conditioning, and selected rooms also boast a seating area. The rooms will provide
+                                guests with a fridge.
+                                <br class="d-lg-block d-none">
+                                Guests at the accommodation can enjoy a continental or a buffet breakfast.
+                                <br class="d-lg-block d-none">
+                                Gwalior Fort is 2.7 km from Clarks Inn Suites Gwalior. The nearest airport is Gwalior
+                                Airport, 12 km from the hotel.
+                                <br class="d-lg-block d-none">
+                                Clarks Inn Suites Gwalior has been welcoming Booking.com guests since 13 Oct 2016.
+                            </p>
+
+
+                            <h4>Address</h4>
+                            <p> <i class="fas fa-map-marker-alt"></i> M.L.B. Road, Phool Bagh, 474009 Gwalior, India.
+                            </p>
+                            <h4>Most popular facilities
+                            </h4>
+                            <p><i class="fas fa-parking"></i> Free parking <i class="fas fa-wifi"></i> Free WiFi <i
+                                    class="fas fa-glass-martini-alt"></i>Bar <i class="fas fa-swimmer"> </i>Swimming
+                                Pool</p>
+
+                            <a href="#" class="btn main-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 col-12 mb-5 order-1 order-lg-2">
+                    <div class="card border-0 ms-lg-5">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/hotel/clarks1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/hotel/clarsk2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center py-5">
+                <div class="col-xl-5 col-lg-6 col-12 mb-5">
+                    <div class="card border-0 me-lg-5">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/hotel/dera1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/hotel/dera2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-6 col-12 mb-5">
+                    <div class="product-content">
+                        <h2> Dera Haveli- Heritage homestay</h2>
+                        <div class="product-details">
+                            <p>Rating: 9.0 <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star">(Superb)</i></p>
+                            <p> Price from
+                                <i class="fas fa-rupee-sign"></i> 3,200
+                                per night
+                            </p>
+                            <p>Dera Haveli- Heritage homestay features air-conditioned accommodation in Gwalior. This
+                                bed and breakfast features free WiFi. The tour desk is available to assist guests in
+                                planning their days out.
+
+                                At the bed and breakfast every room comes with a terrace with a garden view. Every room
+                                has a flat-screen TV, and certain units at Dera Haveli- Heritage homestay have a
+                                balcony. The rooms include a desk.
+
+                                The daily breakfast offers vegetarian and continental options.
+
+                                The accommodation offers a terrace. The area is popular for cycling, and bike hire and
+                                car hire are available at Dera Haveli- Heritage homestay.
+                                <br class="d-lg-block d-none">
+                                The property is located 3.5 km from Gwalior Railway Station and 5 km from Gwalior Bus
+                                Stand. Gwalior Airport is 20 km away. Gwalior Fort is 4 KM away. Jaivilas Palace &
+                                Museum is 2 km away.
+                                <br class="d-lg-block d-none">
+                                Staff at the bed and breakfast are available to provide advice at the 24-hour front
+                                desk.
+                            </p>
+
+                            <h4>Address</h4>
+                            <p> <i class="fas fa-map-marker-alt"></i> Phalka Bazar Road Phalke bada, lashkar, 474001
+                                Gwalior, India
+                            </p>
+                            <h4>Most popular facilities</h4>
+                            <p>
+                                <i class="fas fa-swimming-pool"></i> swimming pool <i class="fas fa-parking"></i> Free
+                                parking <i class="fas fa-wifi"></i> Free WiFi <i class="fas fa-coffee"></i> Tea/coffee
+                                maker in all rooms.
+                            </p>
+
+                            <a href="#" class="btn main-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center py-5">
+                <div class="col-xl-7 col-lg-6 col-12 mb-5  order-2 order-lg-1">
+                    <div class="product-content">
+                        <h2>Krishnayan Heritage</h2>
+                        <p>Rating: 9.7 <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star">(Exceptional)</i></p>
+                        <p> Price from
+                            <i class="fas fa-rupee-sign"></i> 4,750
+                            per night
+                        </p>
+                        <div class="product-details">
+                            <p>Set in Gwalior, 1.1 km from Jai Vilas Palace and 2 km from Teli Ka Mandir, Krishnayan
+                                Heritage offers accommodation with free WiFi, air conditioning, a shared lounge and a
+                                garden.
+
+                                There is a fully equipped private bathroom with shower and free toiletries.
+
+                                Guests at the homestay can enjoy a à la carte breakfast.
+
+                                Krishnayan Heritage offers a terrace.
+
+                                A car rental service is available at the accommodation.
+                                <br class="d-lg-block d-none">
+                                Sasbahu Temple is 2.5 km from Krishnayan Heritage, while Gwalior Fort is 3.3 km from the
+                                property. The nearest airport is Gwalior Airport, 12 km from the homestay.
+                                <br class="d-lg-block d-none">
+                                Krishnayan Heritage has been welcoming Booking.com guests since 22 Mar 2022
+
+                            </p>
+
+
+                            <h4>Address</h4>
+                            <p> <i class="fas fa-map-marker-alt"></i> Phalka Bazar Road, 474001 Gwalior, India
+                            </p>
+                            <h4>Most popular facilities
+                            </h4>
+                            <p><i class="fas fa-parking"></i> Free parking <i class="fas fa-wifi"></i> Free WiFi</p>
+
+                            <a href="#" class="btn main-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 col-12 mb-5 order-1 order-lg-2">
+                    <div class="card border-0 ms-lg-5">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/hotel/krishna.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/hotel/krishna1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center py-5">
+                <div class="col-xl-5 col-lg-6 col-12 mb-5">
+                    <div class="card border-0 me-lg-5">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/hotel/taj1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/hotel/taj2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-6 col-12 mb-5">
+                    <div class="product-content">
+                        <h2> Taj Usha Kiran Palace</h2>
+                        <div class="product-details">
+                            <p>Rating: 9.8 <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star">(Superb+)</i></p>
+                            <p> Price from
+                                <i class="fas fa-rupee-sign"></i> 9,400
+                                per night
+                            </p>
+                            <p>Situated in Gwalior, Taj Usha Kiran Palace offers accommodation with a balcony and WiFi
+                                access. It features 3 dining options and a spa. Activities such as yoga and cooking
+                                classes are available.
+                                <br class="d-lg-block d-none">
+                                Fitted with tiled or wooden flooring, air-conditioned rooms, suites and villas are
+                                equipped with a flat-screen TV and a private bathroom with bath and shower facilities.
+                                Tea/coffee making facilities and a minibar are included.
+                                <br class="d-lg-block d-none">
+                                Overlooking the courtyard green, Silver Saloon offers local, Asian and European dishes.
+                                Housing a large billiards table, The Bada Bar serves Indian and international
+                                favourites. Alternatively, The Court is a café featuring an alfresco dining experience.
+                                <br class="d-lg-block d-none">
+                                Guests can use the business centre, or play a game of mini cricket. Other possible
+                                recreational activities include badminton. The 24-hour front desk can provide assistance
+                                with currency exchange, travel and babysitting services.
+                                <br class="d-lg-block d-none">
+                                Taj Usha Kiran Palace is 3 km from Gwalior Railway Station and 25 km from Gwalior
+                                Airport. Those who drive can park on the property’s premises for free.
+                                <br class="d-lg-block d-none">
+
+                            </p>
+
+                            <h4>Address</h4>
+                            <p> <i class="fas fa-map-marker-alt"></i> Jayendraganj Lashkar, , 474009 Gwalior, India
+                            </p>
+                            <h4>Most popular facilities</h4>
+                            <p>
+                                <i class="fas fa-swimming-pool"></i> swimming pool <i class="fas fa-parking"></i> Free
+                                parking <i class="fas fa-wifi"></i> Free WiFi <i class="fas fa-coffee"></i> Tea/coffee
+                                maker in all rooms.
+                            </p>
+
+                            <a href="#" class="btn main-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!--Hotel Section Exit -->
+
+    <!-- Footer section -->
+    <section class="footer_wrapper mt-3 mt-md-0">
+        <div class="container px-5 px-lg-0">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Our Gwalior</h5>
+                    <p class="mb-4 ps-0 company_details">The history of Gwalior was traced to the 8th century AD.</p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-home me-3"></i>Lashkar, Gwalior (M.P.)</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>+91 123456789</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>ourgwalior@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Customer Support</h5>
+                    <ul class="link-widget p-0">
+
+                        <li><a href="404.html">Privacy Policy</a></li>
+                        <li><a href="404.html">Terms & Conditions</a></li>
+                        <li><a href="404.html">Wholesale Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Quick Links</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Gwalior</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Newsletter</h5>
+                    <div class="form-group mb-4">
+                        <input type="email" class="form-control bg-transparent" placeholder="Enter Your Email Here">
+                        <button type="submit" class="btn main-btn">Submit</button>
+                    </div>
+                    <h5>Stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0">
+                        <li><a href="https://www.facebook.com/OURGWALIORCITY/" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/ourgwalior?lang=en" target="_blank"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/ourgwalior/?hl=en" target="_blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=918269680654&app=facebook&entry_point=page_cta"
+                                target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p>Copyright <a href="#">@ Arshad Khan Zaee</a> All Rights Reserved</p>
+        </div>
+    </section>
+    <!-- Footer Section Exit  -->
+
+    <!-- Bootstrap 5 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
